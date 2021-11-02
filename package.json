@@ -1,6 +1,6 @@
 {
   "name": "@wizteam/pem-jwk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "convert between PEM and JWK formats",
   "main": "index.js",
   "bin": "./bin/pem-jwk.js",
