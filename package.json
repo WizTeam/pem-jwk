@@ -1,5 +1,5 @@
 {
-  "name": "pem-jwk",
+  "name": "@wizteam/pem-jwk",
   "version": "2.0.0",
   "description": "convert between PEM and JWK formats",
   "main": "index.js",
@@ -12,7 +12,8 @@
   },
   "license": "MPL-2.0",
   "dependencies": {
-    "asn1.js": "^5.0.1"
+    "asn1.js": "^5.0.1",
+    "randombytes": "^2.1.0"
   },
   "devDependencies": {
     "tap": "^12.1.1"

@@ -1,5 +1,5 @@
 var asn = require('asn1.js')
-var crypto = require('crypto')
+var randomBytes = require('randombytes')
 var BN = asn.bignum
 
 var zero = new BN(0)
@@ -8,7 +8,7 @@ var two = new BN(2)
 
 function rand(low, high) {
   do {
-    var b = new BN(crypto.randomBytes(high.byteLength()))
+    var b = new BN(randomBytes(high.byteLength()))
   } while(b.cmp(low) <= 0 || b.cmp(high) >= 0)
   return b
 }
